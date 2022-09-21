@@ -45,3 +45,45 @@ video {
 /* ====================================
 // base rules
 // ==================================== */
+
+.section {
+  background: var(--green);
+  color: var(--white);
+  padding: 5px;
+  margin: 15px;
+}
+
+.section-1,
+.section-2,
+.section-4,
+.section-5 {
+  display: flex;
+}
+
+.section-3 .box {
+  margin-bottom: 8px;
+}
+
+.section-3 .box:last-child {
+  margin-bottom: 3px;
+}
+
+.box {
+  background: var(--dark-blue);
+  padding: 10px;
+  font-weight: 700;
+  margin: 3px;
+}
+
+.section-2 {
+  justify-content: flex-end;
+}
+
+.section-4 {
+  justify-content: space-between;
+}
+
+.section-5 {
+  flex-direction: column;
+  align-items: center;
+}
